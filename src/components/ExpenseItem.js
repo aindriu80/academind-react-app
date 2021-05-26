@@ -1,8 +1,8 @@
 import './ExpenseItem.css'
 function ExpenseItem(props) {
-  const month = props.date.toLocaleString('ie-ga', { month: 'long' })
+  const month = props.date.toLocaleString('ga-ie', { month: 'long' })
   const year = props.date.getFullYear()
-  const day = props.date.toLocaleString('ie-ga', { day: '2-digit' })
+  const day = props.date.toLocaleString('ga-ie', { day: '2-digit' })
   return (
     <div className="expense-item">
       <div>
