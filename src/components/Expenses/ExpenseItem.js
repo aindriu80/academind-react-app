@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 import './ExpenseItem.css'
 import ExpenseDate from './ExpenseDate'
 import Card from '../UI/Card'
@@ -11,6 +10,7 @@ const ExpenseItem = (props) => {
     setTitle('Updated!')
     console.log(title)
   }
+
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
