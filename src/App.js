@@ -1,6 +1,5 @@
 import Expenses from './components/Expenses/Expenses'
 import NewExpense from './components/NewExpense/NewExpense'
-import ExpensesFilter from './components/Expenses/ExpensesFilter'
 
 function App() {
   const expenses = [
@@ -38,7 +37,6 @@ function App() {
       <h2>Academind React App </h2>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
-      <ExpensesFilter />
     </div>
   )
 }
