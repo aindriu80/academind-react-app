@@ -32,9 +32,6 @@ function App() {
     })
   }
 
-  // const ExpensesFilter = () ={
-
-  // }
   return (
     <div>
       <h2>Academind React App </h2>
