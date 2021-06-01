@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="center-text">
       <h2>Academind React App </h2>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />

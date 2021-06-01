@@ -3,7 +3,7 @@ import './ChartBar.css'
 const ChatBar = (props) => {
   let barFilledHeight = '0%'
 
-  if (props.max > 0) {
+  if (props.maxValue > 0) {
     barFilledHeight = Math.round(props.value / props.value) * 100 + '%'
   }
   return (
